@@ -1,0 +1,20 @@
+{
+  "name": "mono",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/free-cutyapple/mono.git",
+  "author": "Cutyapple <cutyapple@mathflat.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run build",
+    "start": "lerna run start --stream"
+  }
+}
