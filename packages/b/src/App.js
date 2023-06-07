@@ -6,9 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>B/bbbbbbbApp.js</code> and save to reload.
-        </p>
+        <p>b - vercel.json</p>
         <a
           className="App-link"
           href="https://reactjs.org"
