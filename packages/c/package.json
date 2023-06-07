@@ -2,5 +2,8 @@
   "name": "@free-cutyapple/c",
   "version": "0.0.1",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@free-cutyapple/d": "*"
+  }
 }
