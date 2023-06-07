@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import { log } from '../../c';
 
 function App() {
+  log();
+
   return (
     <div className="App">
       <header className="App-header">
