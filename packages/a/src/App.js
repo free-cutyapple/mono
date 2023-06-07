@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { log } from '../../c';
+import { log } from '@free-cutyapple/c';
 
 function App() {
   log();
@@ -9,9 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>aa/App.js</code> and save to reload.
-        </p>
+        <p>ver. @free-cutyapple/c - log</p>
         <a
           className="App-link"
           href="https://reactjs.org"
